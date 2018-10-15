@@ -2,8 +2,14 @@
 Machine Learning Framework for JPHacks Project
 
 ## Contents
+ * [Requirements](#reqs)
  * [Classifying Messy or Clean Room from 1 to 10](#onetoten)
 
+## Requirements
+Current setup has no GPU. Installation of Keras and Tensorflow are here:
+[Keras Installation](https://keras.io/#installation)
+[Tensorflow Installation](https://www.tensorflow.org/install/)
+Let me know if I missed any requirements.
 ## Classifying Messy/Clean Room
 <a name="onetoten"> </a>
 ### Initial Goal (Pre Work)
@@ -14,8 +20,12 @@ receive some sort of figure that tells you how messy (or preferably, how
 the room is, we can start with a simple 1 to 10 classification problem.
 
 ### Approach
-The approach is based off of the [hackster.io article](https://www.hackster.io/matt-farley/use-artificial-intelligence-to-detect-messy-clean-rooms-f224a2).
-### Data Labeling
+The approach is based off of the [hackster.io article on how to classify a room messy or not.](https://www.hackster.io/matt-farley/use-artificial-intelligence-to-detect-messy-clean-rooms-f224a2).
+
+## Naive-Keras-Model
+<a name="naivemodel"> </a>
+## Approach
+
 
 ## Resources
  * [Detect Messy/Clean Room with AI](https://www.hackster.io/matt-farley/use-artificial-intelligence-to-detect-messy-clean-rooms-f224a2)
@@ -24,3 +34,7 @@ The approach is based off of the [hackster.io article](https://www.hackster.io/m
  * [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
  * [ImageAI Python Library](https://github.com/OlafenwaMoses/ImageAI)
  * [ImageNET Database](http://www.image-net.org/)
+ * [Step by Step Tutorial Tensorflow Object Detection API Part 1](https://medium.com/@WuStangDan/step-by-step-tensorflow-object-detection-api-tutorial-part-1-selecting-a-model-a02b6aabe39e)
+ * [Step by Step Tutorial Tensorflow Object Detection API Part 2](https://medium.com/@WuStangDan/step-by-step-tensorflow-object-detection-api-tutorial-part-2-converting-dataset-to-tfrecord-47f24be9248d)
+ * [Step by Step Tutorial Tensorflow Object Detection API Part 3](https://medium.com/@WuStangDan/step-by-step-tensorflow-object-detection-api-tutorial-part-3-creating-your-own-dataset-6369a4d30dfd)
+ * [ConvNets Blog Post](https://colah.github.io/posts/2014-07-Conv-Nets-Modular/)
