@@ -7,9 +7,9 @@ Machine Learning Framework for JPHacks Project
 
 ## Requirements
 Current setup has no GPU. Installation of Keras and Tensorflow are here:
-[Keras Installation](https://keras.io/#installation)
+[Keras Installation](https://keras.io/#installation),
 [Tensorflow Installation](https://www.tensorflow.org/install/)
-Let me know if I missed any requirements.
+Let me know if I missed any requirements. I'm using Python 2.7.
 ## Classifying Messy/Clean Room
 <a name="onetoten"> </a>
 ### Initial Goal (Pre Work)
@@ -21,11 +21,11 @@ the room is, we can start with a simple 1 to 10 classification problem.
 
 ### Approach
 The approach is based off of the [hackster.io article on how to classify a room messy or not.](https://www.hackster.io/matt-farley/use-artificial-intelligence-to-detect-messy-clean-rooms-f224a2).
+### Labeling
 
 ## Naive-Keras-Model
 <a name="naivemodel"> </a>
 ## Approach
-
 
 ## Resources
  * [Detect Messy/Clean Room with AI](https://www.hackster.io/matt-farley/use-artificial-intelligence-to-detect-messy-clean-rooms-f224a2)
