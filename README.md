@@ -9,7 +9,7 @@ Machine Learning Framework for JPHacks Project
 Current setup has no GPU. Installation of Keras and Tensorflow are here:
 [Keras Installation](https://keras.io/#installation),
 [Tensorflow Installation](https://www.tensorflow.org/install/)
-Let me know if I missed any requirements. I'm using Python 2.7.
+Let me know if I missed any requirements. I'm using Python 3.6.
 ## Classifying Messy/Clean Room
 <a name="onetoten"> </a>
 ### Initial Goal (Pre Work)
