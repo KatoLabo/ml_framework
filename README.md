@@ -7,9 +7,21 @@ Machine Learning Framework for JPHacks Project
 
 ## Requirements
 Current setup has no GPU. Installation of Keras and Tensorflow are here:
+
 [Keras Installation](https://keras.io/#installation),
+
 [Tensorflow Installation](https://www.tensorflow.org/install/)
-Let me know if I missed any requirements. I'm using Python 3.6.
+
+Let me know if I missed any requirements. I'm using **Python 3.6.**
+
+# RASPBERRY PIでテンサーフローインストール方
+tensorflow 1.70 以上と tensorflow-hubも必要だと思う
+
+[ここで](https://www.tensorflow.org/install/source_rpi)raspberry Pi でtensorflowをインストール方
+をかいてあるのに、[まずpipとかcondaでインストールして見てほしい](https://www.tensorflow.org/install/pip).
+
+あと、python3.6も必要だ
+
 ## Classifying Messy/Clean Room
 <a name="onetoten"> </a>
 ### Initial Goal (Pre Work)
@@ -40,6 +52,9 @@ I ran this script using the Anaconda prompt (which has the environment I need, w
 C:\Users\h_hof\Documents\ml_framework\images\labeled
 
 ```
+
+# 予測スクリプト
+このスクリプトを使うとき、_rooms.pb_ と _rooms.txt_　のファイルが必要だ
 
 To test the trained model:
 
@@ -78,7 +93,7 @@ Messy Room Value 10
 ## Keras-Model
 <a name="naivemodel"> </a>
 ## Approach
-
+Herein lies a non-written documentation to a non-completed part.
 
 ## Resources
  * [Detect Messy/Clean Room with AI](https://www.hackster.io/matt-farley/use-artificial-intelligence-to-detect-messy-clean-rooms-f224a2)
