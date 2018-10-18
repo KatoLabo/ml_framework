@@ -29,9 +29,10 @@ Simple 10 class classification machine learning model attempt. The model is call
 on that model can be found [here](https://arxiv.org/pdf/1512.00567.pdf). Image of the inception_v3 model
 because it looks cool:
 
-<img src="https://github.com/KatoLabo/ml_framework/blob/master/inceptionv3onc--oview.png" width="500">
+<img src="https://github.com/KatoLabo/ml_framework/blob/master/inceptionv3onc--oview.png" width="700">
 
-Using a pre-written script from Tensorflow to train and TEST the data.
+Using a pre-written script from Tensorflow, you can retrain the data using a pre-trained data model (inception v3)
+that was trained on the ImageNet database to your images. 
 ### Approach
 The approach is based off of the [hackster.io article on how to classify a room messy or not.](https://www.hackster.io/matt-farley/use-artificial-intelligence-to-detect-messy-clean-rooms-f224a2).
 The script provided by Tensorflow (retrain.py) uses a pre-trained model of "Inception V3" and retrains it.
