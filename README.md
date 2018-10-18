@@ -21,11 +21,47 @@ the room is, we can start with a simple 1 to 10 classification problem.
 
 ### Approach
 The approach is based off of the [hackster.io article on how to classify a room messy or not.](https://www.hackster.io/matt-farley/use-artificial-intelligence-to-detect-messy-clean-rooms-f224a2).
-### Labeling
+The script provided by Tensorflow (retrain.py) uses a pre-trained model of "Inception V3" and retrains it.
+To retrain the model:
+```shell
 
-## Naive-Keras-Model
+python retrain.py \
+  --image_dir /path/to/labeled/files \
+  --output_graph=rooms.pb \
+  --output_lables=rooms.txt \
+  --tfhub_module https://tfhub.dev/google/imagenet/inception_v3/feature_vector/1
+
+```
+
+I ran this script using the Anaconda prompt (which has the environment I need, with all
+  the packages installed and Python 3.6), and I used Windows style (full) paths such as:
+```shell
+
+C:\Users\h_hof\Documents\ml_framework\images\labeled
+
+```
+
+### Labeling
+NOTE: I did not upload the images to GitHub. Get them from my Ekimae folder. Too big to upload.
+I hand labeled each image 1 through 10, with 1 being the cleanest room possible, and 10 the most messy.
+
+Small timeline of how the data labeling has/is gone: \n
+10/16/18: 397 labeled images, 550+ more images waiting to be labeled
+10/18/19: 957 labeled images
+
+Messy Room Value 1
+![Messy Room Value 1][mess1]
+
+Messy Room Value 2
+![Messy Room Value 10][mess10]
+
+[mess1]: https://github.com/KatoLabo/ml_framework/blob/master/dirty_1.jpeg "mess1"
+[mess10]: https://github.com/KatoLabo/ml_framework/blob/master/dirty_10.jpeg "mess10"
+
+## Keras-Model
 <a name="naivemodel"> </a>
 ## Approach
+
 
 ## Resources
  * [Detect Messy/Clean Room with AI](https://www.hackster.io/matt-farley/use-artificial-intelligence-to-detect-messy-clean-rooms-f224a2)
