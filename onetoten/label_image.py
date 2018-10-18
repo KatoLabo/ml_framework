@@ -22,6 +22,7 @@ import argparse
 import numpy as np
 import tensorflow as tf
 
+import matplotlib.pyplot as plt
 
 def load_graph(model_file):
   graph = tf.Graph()
@@ -30,7 +31,7 @@ def load_graph(model_file):
   with open(model_file, "rb") as f:
     graph_def.ParseFromString(f.read())
   with graph.as_default():
-    tf.import_graph_def(graph_def)-
+    tf.import_graph_def(graph_def)
 
   return graph
 
@@ -136,5 +137,11 @@ if __name__ == "__main__":
 
   top_k = results.argsort()[-5:][::-1]
   labels = load_labels(label_file)
+
+  fig, ax = plt.subplots()
   for i in top_k:
     print(labels[i], results[i])
+    ax.plot(results[i], labels[i])
+  ax.set(xlabel='Percentage', ylabel='Score', title='Messy Room Prediction')
+  #fig.savefig("stuff.png")
+  plt.show()
