@@ -65,11 +65,15 @@ Small timeline of how the data labeling has/is gone:
 
 Messy Room Value 1
 
-<img src="https://github.com/KatoLabo/ml_framework/blob/master/dirty_1.jpeg" width="350"> <img src="https://github.com/KatoLabo/ml_framework/blob/master/messy1_predict.png" width="350">
+<img src="https://github.com/KatoLabo/ml_framework/blob/master/dirty_1.jpeg" width="350"> <img src="https://github.com/KatoLabo/ml_framework/blob/master/messy1_predict.png" width="370">
 
-Messy Room Value 2
+Messy Room Value 5
 
-<img src="https://github.com/KatoLabo/ml_framework/blob/master/dirty_10.jpeg" width="350"> <img src="https://github.com/KatoLabo/ml_framework/blob/master/messy10_predict.png" width="350">
+<img src="https://github.com/KatoLabo/ml_framework/blob/master/dirty_5.jpeg" width="350"> <img src="https://github.com/KatoLabo/ml_framework/blob/master/messy5_predict.png" width="370">
+
+Messy Room Value 10
+
+<img src="https://github.com/KatoLabo/ml_framework/blob/master/dirty_10.jpeg" width="350"> <img src="https://github.com/KatoLabo/ml_framework/blob/master/messy10_predict.png" width="370">
 
 ## Keras-Model
 <a name="naivemodel"> </a>
