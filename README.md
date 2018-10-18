@@ -28,7 +28,7 @@ To retrain the model:
 python retrain.py \
   --image_dir /path/to/labeled/files \
   --output_graph=rooms.pb \
-  --output_lables=rooms.txt \
+  --output_labels=rooms.txt \
   --tfhub_module https://tfhub.dev/google/imagenet/inception_v3/feature_vector/1
 
 ```
@@ -38,6 +38,18 @@ I ran this script using the Anaconda prompt (which has the environment I need, w
 ```shell
 
 C:\Users\h_hof\Documents\ml_framework\images\labeled
+
+```
+
+To test the trained model:
+
+```shell
+
+python label_image.py \
+  --graph=rooms.pb \
+  --labels=rooms.txt \
+  --input_layer=Placeholder \
+  --image=/path/to/new/image.jpg
 
 ```
 
