@@ -50,13 +50,10 @@ Small timeline of how the data labeling has/is gone: \n
 10/18/19: 957 labeled images
 
 Messy Room Value 1
-![Messy Room Value 1][mess1]
+<img src="https://github.com/KatoLabo/ml_framework/blob/master/dirty_1.jpeg" width="350">
 
 Messy Room Value 2
-![Messy Room Value 10][mess10]
-
-<img src="https://github.com/KatoLabo/ml_framework/blob/master/dirty_1.jpeg" width="150">
-[mess10]: https://github.com/KatoLabo/ml_framework/blob/master/dirty_10.jpeg "mess10"
+<img src="https://github.com/KatoLabo/ml_framework/blob/master/dirty_10.jpeg" width="350">
 
 ## Keras-Model
 <a name="naivemodel"> </a>
