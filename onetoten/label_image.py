@@ -141,7 +141,10 @@ if __name__ == "__main__":
   fig, ax = plt.subplots()
   for i in top_k:
     print(labels[i], results[i])
-    ax.plot(results[i], labels[i])
+  
+  ax.bar(labels, results)
   ax.set(xlabel='Percentage', ylabel='Score', title='Messy Room Prediction')
+  #print(results)
+  #print(labels)
   #fig.savefig("stuff.png")
   plt.show()
