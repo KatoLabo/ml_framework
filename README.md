@@ -45,14 +45,18 @@ C:\Users\h_hof\Documents\ml_framework\images\labeled
 NOTE: I did not upload the images to GitHub. Get them from my Ekimae folder. Too big to upload.
 I hand labeled each image 1 through 10, with 1 being the cleanest room possible, and 10 the most messy.
 
-Small timeline of how the data labeling has/is gone: \n
+Small timeline of how the data labeling has/is gone:
+
 10/16/18: 397 labeled images, 550+ more images waiting to be labeled
+
 10/18/19: 957 labeled images
 
 Messy Room Value 1
+
 <img src="https://github.com/KatoLabo/ml_framework/blob/master/dirty_1.jpeg" width="350">
 
 Messy Room Value 2
+
 <img src="https://github.com/KatoLabo/ml_framework/blob/master/dirty_10.jpeg" width="350">
 
 ## Keras-Model
