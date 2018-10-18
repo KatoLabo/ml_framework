@@ -14,7 +14,7 @@ Current setup has no GPU. Installation of Keras and Tensorflow are here:
 
 Let me know if I missed any requirements. I'm using **Python 3.6.**
 
-# RASPBERRY PIでテンサーフローインストール方
+#### RASPBERRY PIでテンサーフローインストール方
 tensorflow 1.70 以上と tensorflow-hubも必要だと思う
 
 [ここで](https://www.tensorflow.org/install/source_rpi)raspberry Pi でtensorflowをインストール方
@@ -25,12 +25,13 @@ tensorflow 1.70 以上と tensorflow-hubも必要だと思う
 ## Classifying Messy/Clean Room
 <a name="onetoten"> </a>
 ### Initial Goal (Pre Work)
-Since it's not yet clear whether I can do object detection, I've decided
-to begin with a simple classifying project. Since the objective is to
-receive some sort of figure that tells you how messy (or preferably, how
-  many objects of a certain kind are present, like t-shirts, cup ramen, etc)
-the room is, we can start with a simple 1 to 10 classification problem.
+Simple 10 class classification machine learning model attempt. The model is called: "Inception V3" and the paper
+on that model can be found [here](https://arxiv.org/pdf/1512.00567.pdf). Image of the inception_v3 model
+because it looks cool:
 
+<img src="https://github.com/KatoLabo/ml_framework/blob/master/inceptionv3onc--oview.png" width="500">
+
+Using a pre-written script from Tensorflow to train and TEST the data.
 ### Approach
 The approach is based off of the [hackster.io article on how to classify a room messy or not.](https://www.hackster.io/matt-farley/use-artificial-intelligence-to-detect-messy-clean-rooms-f224a2).
 The script provided by Tensorflow (retrain.py) uses a pre-trained model of "Inception V3" and retrains it.
@@ -53,7 +54,7 @@ C:\Users\h_hof\Documents\ml_framework\images\labeled
 
 ```
 
-# 予測スクリプト
+#### 予測スクリプト
 このスクリプトを使うとき、_rooms.pb_ と _rooms.txt_　のファイルが必要だ
 
 To test the trained model:
